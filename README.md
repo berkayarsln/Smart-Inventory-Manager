@@ -39,11 +39,3 @@ npm run dev
 4. Environment Configuration
 Create a file named .env.local inside the frontend directory and paste the following:
 NEXT_PUBLIC_API_URL=http://localhost:5255
-
-
-🧠 Engineering Highlights & Problem Solving
-SQLite Optimization: To handle SQLite's limitation with decimal types in aggregate functions, I implemented client-side aggregation using LINQ to Objects to ensure accurate financial calculations for the dashboard.
-CORS Configuration: Implemented a secure Cross-Origin Resource Sharing (CORS) policy to allow seamless communication between the Next.js frontend and the .NET API.
-Graceful Error Handling: Integrated "Optional Chaining" and fallback UI states in React to prevent application crashes when the database is empty or the API is unreachable.
-📝 License
-Distributed under the MIT License.
